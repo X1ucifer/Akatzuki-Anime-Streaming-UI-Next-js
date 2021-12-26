@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Head from 'next/head'
 import Image from 'next/image'
-import Header from "./components/head/header"
-import Video from "./components/head/video";
-import CastSlider from "./components/head/castSlide"
+import Header from "../components/head/header"
+import Video from "../components/head/video";
 import styles from '../styles/Index.module.css'
 import db from "../firebase";
 import { doc, collection, query, getDoc, onSnapshot } from "firebase/firestore";

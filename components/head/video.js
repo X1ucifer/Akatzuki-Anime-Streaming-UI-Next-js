@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import styles from '../../../styles/Video.module.css'
+import styles from '../../styles/Video.module.css'
 import ReadMoreReact from 'read-more-react';
 import {
     VolumeUpIcon, VolumeOffIcon, HeartIcon, ChatIcon
