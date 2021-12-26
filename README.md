@@ -10,6 +10,11 @@ npm run dev
 yarn dev
 ```
 
+How it Looks
+
+<video src='https://res.cloudinary.com/jinu/video/upload/v1640559454/ui1lpku5zpkcjarbdxfi.mp4' width=180/>
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
