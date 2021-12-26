@@ -1,0 +1,14 @@
+
+ .container {
+     max-height: 100vh;
+     overflow: scroll;
+     scroll-snap-type: y mandatory;
+ }
+
+ .container::-webkit-scrollbar {
+    display: none;
+}
+
+ .item {
+     scroll-snap-align: start;
+ }
