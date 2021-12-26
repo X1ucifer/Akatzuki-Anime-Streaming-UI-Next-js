@@ -10,9 +10,9 @@ npm run dev
 yarn dev
 ```
 
-How it Looks
+## How it Looks
 
-
+https://res.cloudinary.com/jinu/video/upload/v1640559454/ui1lpku5zpkcjarbdxfi.mp4
 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
