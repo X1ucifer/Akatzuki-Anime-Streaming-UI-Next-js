@@ -1,3 +1,15 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
+    "@next/next/no-css-tags": "off",
+    "@next/next/no-img-element": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react-hooks/rules-of-hooks":"off",
+    "react/no-unknown-property":"off",
+    "react/jsx-no-comment-textnodes":"off",
+    "react/no-children-prop":"off",
+    "jsx-a11y/alt-text":"off"
+  }
 }
