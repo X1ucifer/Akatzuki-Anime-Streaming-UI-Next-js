@@ -5,12 +5,18 @@ import {
     VolumeUpIcon, VolumeOffIcon, HeartIcon, ChatIcon
 } from '@heroicons/react/Outline'
 import useElementOnScreen from '../../hooks/observer'
+import { withRouter, useRouter } from "next/router";
+import Link from 'next/link'
+
 
 
 
 
 function Video({ url, title, description }) {
 
+    const router = useRouter();
+    const { slug } = router.query;
+    
     const [playing, setPlaying] = useState(false);
     const [isPlaying, setIsPlaying] = useState(false);
 
@@ -39,7 +45,7 @@ function Video({ url, title, description }) {
             setIsPlaying(!isPlaying);
         }
     };
-    
+
     useEffect(() => {
         if (isVisibile) {
             if (!playing) {
