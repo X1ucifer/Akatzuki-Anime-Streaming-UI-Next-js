@@ -2,9 +2,6 @@
   "name": "movie_app",
   "private": true,
 
-  "engines": {
-    "node": "14.17.4"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
