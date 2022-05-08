@@ -1,0 +1,16 @@
+.container {
+  border: 8px solid red;
+  padding: 30px;
+  width: 50%;
+  height: 50vh;
+  position: absolute;
+}
+
+.child {
+  border: 2px solid blue;
+  margin: 10px;
+  padding: 20px;
+  width: 10%;
+  position: relative;
+  right: 0;
+}
