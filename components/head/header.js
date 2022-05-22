@@ -192,7 +192,7 @@ function Header() {
         // console.table({ name, email, password });
         try {
             setLoading(true);
-            const { data } = await axios.post(`http://ec2-15-206-123-199.ap-south-1.compute.amazonaws.com:8080/api/auth/signin`, {
+            const { data } = await axios.post(`/api/auth/signin`, {
                 username,
                 password,
             });
