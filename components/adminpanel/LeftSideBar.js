@@ -15,7 +15,9 @@ function LeftNavbar() {
 	return (
 		<div className={styles.navcontainer}>
 			<div className={styles.logo}>
-				<h2>Akatzuki</h2>
+				{/* <h2>Akatzuki</h2> */}
+				<br/>
+				<br/>
 			</div>
 			<div className={styles.wrapper}>
 				<ul>

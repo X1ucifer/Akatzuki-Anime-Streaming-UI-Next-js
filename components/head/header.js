@@ -127,7 +127,7 @@ const SmallAvatar = withStyles((theme) => ({
 
 function Header() {
 
-    
+
 
     const [username, setUsername] = useState("");
     const [role, setRole] = useState(["user"]);
@@ -210,7 +210,7 @@ function Header() {
             setIsOpen(false)
             setLoading(false);
         } catch (err) {
-            console.log("gh",err)
+            console.log("gh", err)
             toast.dark(err.response.data.message);
             setLoading(false);
         }
@@ -238,10 +238,12 @@ function Header() {
             <div className='absolute  top-0 p-10 w-full bg-gradient-to-b from-neutral-900 to-transparent h-5 z-[1]'> </div>
             <div className='fixed w-full h-90 flex justify-between	items-center p-4 z-10'>
 
-                <div>
-                    <h1 className='font-medium text-lg antialiased'>
-                        <del>AKATSUKI</del> {user && "-"} <del>{user && user.username.toUpperCase()} </del>
-                    </h1>
+                <div className=' cursor-pointer'> 
+                    <Link href="/">
+                        <h1 className='font-medium text-lg antialiased'>
+                            <del>AKATSUKI</del> {user && "-"} <del>{user && user.username.toUpperCase()} </del>
+                        </h1>
+                    </Link>
                 </div>
 
 

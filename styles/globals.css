@@ -3,14 +3,19 @@
 @tailwind utilities;
 
 html,
-body {
+
+body  {
+  color: white !important;
+  /* background-color: black !important; */
+  /* background: url("./home-background.png") center center / cover
+  no-repeat fixed !important; */
   padding: 0;
+  background: radial-gradient(100% 50% at 100% 50%, rgb(37, 44, 46) 0%, rgb(10, 12, 13) 100%);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-      background-color: black;
-    color: white;
 }
+
 
 a {
   color: inherit;

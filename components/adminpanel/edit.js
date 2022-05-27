@@ -383,15 +383,7 @@ function Editform({ info }) {
 							)} */}
 
                             {progress > 0 && (
-                                // <CircularProgress
-                                //     // className="d-flex justify-content-center pt-2"
-                                //     value={progress}
-                                //     size={10}
-                                //     color="inherit"
-                                // />
-                                // <div className="progress">
-                                //     <div className="progress-bar" role="progressbar" style={{width: "25%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{progress}</div>
-                                // </div>
+                              
 
                                 <div className={classes.root}>
 
@@ -421,15 +413,7 @@ function Editform({ info }) {
 							)} */}
 
                             {progress1 > 0 && (
-                                // <CircularProgress
-                                //     // className="d-flex justify-content-center pt-2"
-                                //     value={progress}
-                                //     size={10}
-                                //     color="inherit"
-                                // />
-                                // <div className="progress">
-                                //     <div className="progress-bar" role="progressbar" style={{width: "25%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{progress}</div>
-                                // </div>
+                           
 
                                 <div className={classes.root}>
 
@@ -466,6 +450,8 @@ function Editform({ info }) {
                     </form>
                 </div>
             </div>
+
+            
 
         </div>
     );

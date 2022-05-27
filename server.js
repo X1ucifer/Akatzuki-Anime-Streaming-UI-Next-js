@@ -9,7 +9,7 @@ const handle = app.getRequestHandler()
 
 const apiPaths = {
     '/api': {
-        target: 'http://ec2-15-206-123-199.ap-south-1.compute.amazonaws.com:8080', 
+        target: 'http://localhost:8080', 
         pathRewrite: {
             '^/api': '/api'
         },
